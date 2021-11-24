@@ -1,0 +1,79 @@
+@media only screen and (max-width:1226px){
+    /* nav ul{
+        width: 50%;
+        background: linear-gradient(#00c0b6, #00c0b6);
+        position:absolute;
+        top: 100px;
+        right: 0;
+        z-index: 2;
+        margin-top: 0px;
+    } */
+
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    nav ul li a button{
+       padding-left: 60px;
+       padding-top: 0px;
+    } 
+
+     nav ul li a{
+        color: white;
+    }
+    
+
+    .menu-icon{
+        display: block;
+    }
+    
+     .p1{
+        width: 280px;
+        height: 90px;
+        margin: 0 0 41px;
+        font-family: Comfortaa;
+        font-size: 23px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+     }
+
+     /* #menuList{
+         overflow:hidden ;
+         transition: 0.5s;
+     } */
+    .checkbtn{
+        display: block;
+    }
+
+    ul{
+        /* position: fixed; */
+        width: 100%;
+        height: 100vh;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition: all;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0px;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    #check:checked ~ul{
+        left: 0;
+    }
+}
