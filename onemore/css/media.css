@@ -1,0 +1,470 @@
+
+ @media (max-width:1288px)
+{ 
+   /* 1st section */
+
+  .logo{
+    margin: 9px 0px 9px 20px;
+}  
+
+.menu{
+  display:none;
+  right: 0;
+  left: 0;
+  text-align: center;
+  padding: 16px 0;
+}
+
+.menu li + li {
+  margin-top: 12px;
+ }
+ input[type=checkbox]:checked ~ .menu{
+  display: block;
+ }
+
+/* nav ul li a{
+  font-size: 16px;
+} */
+
+.checkbtn{
+  display: block;
+}
+
+nav ul{
+ float: right;
+}
+
+nav ul li{
+  display: table;
+  line-height: 30px;
+
+}
+
+    /* second section */
+     .section{
+        height: 500px;
+        margin: 9px 0 40px;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+     }
+
+     .centered{
+        position: absolute;
+        top: 44px;
+        left: 20px;
+        right: 20px;
+      }
+
+      .centered .praesent{
+        width: 280px;
+        font-family: Comfortaa;
+        font-size: 23px;
+        color: #fff;
+      }
+
+    
+      .search_engine{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,10px);
+      }
+      
+      
+      .search_input{
+        width: 207px;
+      height: 11px;
+      margin: 15px 241px 14px 20px;
+      font-family: Karla;
+      font-size: 18px;
+      line-height: 0.61;
+      text-align: left;
+      color: #505050;
+      }
+      
+      form.example button {
+        position:absolute;
+        width: 350px;
+        background-color:#01c0b6;
+        border: none;
+        color: white;
+        font-size: 18px;
+        top: 52%;
+        left: 28%;
+      } 
+      
+      form.example img{
+        width: 18px;
+        height: 21px;
+        margin: -79px 53px 130px -60px;
+        object-fit: contain;
+        font-family: simple-line-icons;
+        font-size: 18px;
+        line-height: 1.17;
+        text-align: left;
+        color: #505050;
+      }
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      form.example input[type=text] {
+      width: 280px;
+      height: 50px;
+      padding: 8px 8px 14px 57px;
+      background-color: #fff;
+      border: none;
+      }
+    
+      
+      .vestibulm{
+        position: absolute;
+        width: 250px;
+        top: 350px;
+        left: 38%;
+      }
+
+      /* 3rd section */
+
+  .row{
+  flex-direction: column;
+}
+
+.feature-box{
+  text-align: center;
+}
+
+.header1{
+  width: 201px;
+  height: 30px;
+  margin: 17px 109px 10px 110px;
+  font-family: Comfortaa;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #13403e;
+}
+
+.purus{
+  width: 260px;
+  height: 78px;
+  font-family: Karla;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: #505050;
+}
+
+.icon{
+   width: 51px;
+  height: 51px;
+  padding: 4px;
+  object-fit: contain;
+}
+
+.header2{
+  width: 217px;
+height: 42px;
+font-family: Comfortaa;
+font-size: 32px;
+font-weight: bold;
+letter-spacing: normal;
+text-align: center;
+color: #01c0b6;
+}
+
+.hiw{
+  margin-left: 40.33%;
+  margin-top: 110px;
+}
+
+.step{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-left: 150px;
+  margin-top: 33px;
+  }
+  
+  .header3{
+    font-family: Comfortaa;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.43;
+    color: #222;
+    padding-left: 70px;
+    padding-right: 73px;
+    margin-top: 27px;
+  }
+  
+  .ligula{
+    width: 260px;
+  height: 78px;
+  margin:20px 0px 32px 60px;
+  font-family: Karla;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: #505050;
+  }
+  
+  .feature-boxes{
+    width: 380px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 1px 0 rgba(68, 68, 68, 0.1);
+    background-color: #fcfcfc;
+    margin-top: 30px;
+  }
+  
+  .column_section{
+   margin:auto;
+  }
+  
+  .icon_section{
+    margin:auto;
+    top: 33.33%;
+  }
+  .row_section{
+    display: flex;
+    flex-direction: column;
+    margin-top:100px;
+  }
+
+  .gradient {
+    background: linear-gradient(to bottom, white 50%, #01c0b6 50%);
+  }
+  
+  .image2{
+    margin-top:130px;
+  }
+  
+  .video_image{
+    width: 280px;
+    height: 165px;
+    display: block;
+    margin:auto;
+  }
+  
+  .video_logo{
+    width: 30px;
+    object-fit: contain;
+    margin-right:781px ;
+    position:absolute;
+    margin-top: 63px;
+    left: 50%;
+  }
+  
+  /* 8th section */
+
+  .feature-boxes_logo{
+    width: 380px;
+    margin: auto;
+  }
+  
+  .header5{
+    width: 201px;
+    height: 30px;
+    font-family: Comfortaa;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #13403e;
+    margin-left: 33.33%;
+    margin-top: 50px;
+  }
+  
+  .magna{
+    width: 260px;
+    height: 78px;
+    font-family: Karla;
+    font-size: 16px;
+    line-height: 1.38;
+    color: #505050;
+    margin-left:33.33%;
+    margin-top: 10px;
+    margin-bottom: 110px;
+  }
+  
+  .icon5{
+     width: 51px;
+    height: 51px;
+    padding: 4px;
+    object-fit: contain;
+    position: absolute;
+  }
+  /* 11th section */
+  .header7{
+    width: 204px;
+    font-family: Comfortaa;
+    font-size: 21px;
+    line-height: 1.43;
+    text-align: center;
+    color: #13403e;
+    margin: auto;
+    /* margin-left: 33.33%;
+    margin-top: 40px; */
+    margin: 40px auto;
+  transform: translate(20px,10px);
+  }
+  
+  .paragraph{
+    width: 280px;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 1.48;
+    letter-spacing: normal;
+    color: #505050;
+    margin: 60px auto;
+    transform: translate(20px,10px);
+  }
+  
+  .address{
+    line-height: 1.38;
+    color: #505050;
+    margin: 6px auto;
+    margin-left: 40.33%;
+  }
+
+  .ipsum{
+    position: relative;
+  }
+  .lorem{
+    background-color: #00c0b6;
+  }
+  .header8{
+    width: 319px;
+    height: 42px;
+    padding-top: 80px;
+    font-family: Comfortaa;
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+  }
+  
+  .search_engine_button{
+    position: absolute;
+    top: 45.33%;
+    left: 50%;
+    transform: translate(-50%,10px);
+  }
+  .dolor{
+    width: 480px;
+    font-family: Karla;
+    font-size: 16px; 
+    line-height: 1.38;
+    text-align: center;
+    color: #fff;
+    margin: 30px auto;
+  }
+  
+  
+  .search_input_2{
+    width: 207px;
+  height: 11px;
+  margin: 15px 241px 14px 20px;
+  font-family: Karla;
+  font-size: 18px;
+  line-height: 0.61;
+  text-align: left;
+  color: #505050;
+  }
+  
+  form.example_2 button {
+    position:absolute;
+    width: 350px;
+    background-color: #484848;
+    border: none;
+    color: white;
+    font-size: 18px;
+    top: 60%;
+    left: 18%;
+  } 
+  
+  form.examples_2 img{
+    width: 18px;
+    height: 21px;
+    margin: -75px 42px 113px -60px;
+    object-fit: contain;
+    font-family: simple-line-icons;
+    font-size: 18px;
+    line-height: 1.17;
+    text-align: left;
+    color: #505050;
+  }
+  form.example_2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  form.example_2 input[type=text] {
+    width: 280px;
+  height: 50px;
+  margin: 30px -79px;
+  padding: 8px 8px 8px 57px;
+  background-color: #fff;
+  border: none;
+  }
+
+  /* 13th section */
+  .logo_doors{
+    width: 105px;
+    height: 52px;
+    margin-left: 42%;
+    margin-top: 30px;
+    object-fit: contain;
+  }
+  .footer_part2 ul {
+    list-style: none;
+    display: block;
+    float: right;
+    width: 126px;
+    height: 22px;
+    margin: -132px 575px 108px 44px;
+    font-family: Karla;
+    font-size: 16px;
+    line-height: 2.45;
+    letter-spacing: normal;
+    text-align: left;
+    color: #13403e;
+  }
+  
+  /* .list_footer{
+    position: absolute;
+    left: 36.33%;
+    top: 654px;
+  } */
+
+  .social-icon{
+    margin: 20px 10px;
+  }
+  
+  .footer_icons{
+    padding:7% 15%;
+    text-align: center;
+  }
+  
+  #footer_icons{
+    position: relative;
+  }
+  .f_icons{
+    position: absolute;
+    left: 39%;
+    top: 268px;
+    padding-bottom: 42px;
+  }
+
+  .footer_part2 ul{
+    right: 0px;
+  }
+}
